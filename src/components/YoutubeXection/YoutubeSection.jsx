@@ -20,21 +20,8 @@ const YouTubeAndMapSection = () => {
             margin: "0 auto", // Centrar el video
           }}
         >
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/d3L-ksklKg4"
-            allowFullScreen
-            title="YouTube Video"
-            style={{
-              position: "absolute",
-              top: 0,
-              left: 0,
-              width: "100%",
-              height: "100%",
-              border: 0,
-            }}
-          ></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/d3L-ksklKg4?si=2AXg4o5PjTnImE6d&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
         </Box>
       </Box>
 
@@ -53,8 +40,6 @@ const YouTubeAndMapSection = () => {
             margin: "0 auto",
           }}
         >
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/d3L-ksklKg4?si=2AXg4o5PjTnImE6d&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-          </iframe>
         </Box>
       </Box>
     </Box>
